@@ -2,10 +2,7 @@
 
 What to adjust:
 
-* Add the your project or repo name direct under the logo.
-* Add a short and long desciption.
 * Add links for your final repo to report a bug or request a feature.
-* Fill up the section for set up and documentation.
 * Start in this file only with documentation and link to the docs folder.
 * Add project shields. Use [shields.io](https://shields.io/)
 
