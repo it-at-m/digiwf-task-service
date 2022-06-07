@@ -1,15 +1,18 @@
 ## Customize this file after creating the new REPO and remove this lines.
-What to adjust:  
+
+What to adjust:
+
 * Add the your project or repo name direct under the logo.
 * Add a short and long desciption.
 * Add links for your final repo to report a bug or request a feature.
 * Add list of used technologies.
 * If you have, add a roadmap or remove this section.
 * Fill up the section for set up and documentation.
- * Start in this file only with documentation and link to the docs folder.
+* Start in this file only with documentation and link to the docs folder.
 * Add project shields. Use [shields.io](https://shields.io/)
 
 ## ------- end to remove -------
+
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
@@ -34,48 +37,64 @@ What to adjust:
 </div>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 *Add a description from your project here.*
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
 The documentation project is built with technologies we use in our projects:
 
-* *write here the list of used technologies*
+* Spring Boot
+* [Taskana](https://github.com/Taskana)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- ROADMAP -->
-## Roadmap
-
-*if you have a ROADMAP for your project add this here*
-
-
-See the [open issues](#) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Set up
-*how can i start and fly this project*
+
+Build the project in your idea or via cmd line:   
+``./mvnw clean install``
+
+Start via mvn:  
+``./mvnw spring-boot:run``
+
+You should now see in your browser the camunda login.   
+Use the URL ``http://localhost:8080/taskana``
+
+If you need to change some settings. Look in the ``application.yml`` file under ``src/main/resources``
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Documentation
-*what insights do you have to tell*
+
+To set up the demo process engine. Create a list of environment variables and fill them with the necessary data.  
+A list of them and with example data you can find here:
+```
+TASKANA_DB_HOST=localhost
+TASKANA_DB_PORT=5432
+TASKANA_DB_NAME=digiwf-process-engine
+TASKANA_DB_USER=postgres
+TASKANA_DB_PASSWORD=password
+```
+
+You can create this variables in a `.env` file. For *nix users add before every line `export` and add a space. For windows user add a `set ` for every line.  
+*nix user can then do `source .env` to load the environment variables.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please open an issue with the tag "enhancement", fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please open an issue with the tag "enhancement", fork the repo and
+create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a
+star! Thanks again!
 
 1. Open an issue with the tag "enhancement"
 2. Fork the Project
@@ -90,6 +109,7 @@ More about this in the [CODE_OF_CONDUCT](/CODE_OF_CONDUCT.md) file.
 
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` file for more information.
@@ -99,6 +119,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 
 <!-- CONTACT -->
+
 ## Contact
 
 it@m - opensource@muenchendigital.io
