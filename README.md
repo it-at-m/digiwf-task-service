@@ -5,8 +5,6 @@ What to adjust:
 * Add the your project or repo name direct under the logo.
 * Add a short and long desciption.
 * Add links for your final repo to report a bug or request a feature.
-* Add list of used technologies.
-* If you have, add a roadmap or remove this section.
 * Fill up the section for set up and documentation.
 * Start in this file only with documentation and link to the docs folder.
 * Add project shields. Use [shields.io](https://shields.io/)
@@ -26,10 +24,10 @@ What to adjust:
     <img src="/images/logo.png" alt="Logo" height="200">
   </a>
 
-<h3 align="center">DigiWF <i>repo or project name</i></h3>
+<h3 align="center">DigiWF <i>Task Service</i></h3>
 
   <p align="center">
-    <i>Add a here a short description</i>
+    <i>This is the task service for digiwf based on Taskana.</i>
     <br /><a href="#">Report Bug</a>
     ·
     <a href="#">Request Feature</a>
@@ -40,7 +38,9 @@ What to adjust:
 
 ## About The Project
 
-*Add a description from your project here.*
+This is a component in the DigiWF Core stack. It use the TASKANA service to handle user tasks from different sources.  
+First we start with user task from the camunda process engine.
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
